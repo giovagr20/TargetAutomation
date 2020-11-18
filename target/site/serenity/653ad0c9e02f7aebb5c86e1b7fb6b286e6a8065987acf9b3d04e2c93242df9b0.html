@@ -148,7 +148,7 @@
             <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="fa fa-comments-o"></i> Features</a>
         </li>
     </ul>
-    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 17-11-2020 18:55</span>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 17-11-2020 19:11</span>
     <br style="clear:left"/>
 </div>
     <div class="clr"></div>
@@ -239,14 +239,14 @@
                         </td>
 
                         <td width="130"><span class="top-level-step">SUCCESS</span></td>
-                        <td width="100"><span class="top-level-step">8.82s</span></td>
+                        <td width="100"><span class="top-level-step">12.67s</span></td>
                     </tr>
-                    <tr class="test-SUCCESS">
+                    <tr class="test-ERROR">
 
                         <td width="50" class="step-icon">
                             <a name="1"></a>
                                 <span style="margin-left: 20px;"
-                                      class="top-level-icon"><a href='##beforetable'><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i></a>
+                                      class="top-level-icon"><a href='##beforetable'><i class='fa fa-exclamation-triangle error-icon ' title='ERROR'></i></a>
                                 </span>
                         </td>
 
@@ -260,30 +260,8 @@
                             </div>
                         </td>
 
-                        <td width="130"><span class="top-level-step">SUCCESS</span></td>
-                        <td width="100"><span class="top-level-step">0.45s</span></td>
-                    </tr>
-                    <tr class="test-ERROR">
-
-                        <td width="50" class="step-icon">
-                            <a name="2"></a>
-                                <span style="margin-left: 20px;"
-                                      class="top-level-icon"><a href='##beforetable'><i class='fa fa-exclamation-triangle error-icon ' title='ERROR'></i></a>
-                                </span>
-                        </td>
-
-                        <td class="step-description-column">
-                            <div class="step-description">
-                                    <span class="top-level-step">
-                                                And el Usuario busca "womens shoes"
-                                        </span>
-                                <span class="evidence">
-                                </span>
-                            </div>
-                        </td>
-
                         <td width="130"><span class="top-level-step">ERROR</span></td>
-                        <td width="100"><span class="top-level-step">0.11s</span></td>
+                        <td width="100"><span class="top-level-step">1.24s</span></td>
                     </tr>
                         <tr class="test-ERROR">
                             <td width="40">&nbsp</td>
@@ -297,7 +275,7 @@
                     <span class="error-message error-message-title">java.lang.NullPointerException</span>
                 </div>
                 <div class="col-sm-2">
-                    <a class="btn btn-warning details-button" data-toggle="collapse" href="#stacktraceModal-3""
+                    <a class="btn btn-warning details-button" data-toggle="collapse" href="#stacktraceModal-2""
                        role="button" aria-expanded="false" aria-controls="multiCollapseExample1"><i class="far fa-eye"></i> More details</a>
                 </div>
              </div>
@@ -307,14 +285,14 @@
     <!-- Details Section -->
     <div class="row stacktrace-details">
       <div class="col">
-        <div class="collapse multi-collapse" id="stacktraceModal-3">
+        <div class="collapse multi-collapse" id="stacktraceModal-2">
             <div class="card">
                 <div class="card-header">
                     <h4>java.lang.NullPointerException </h4>
                 </div>
                 <div class="card-body">
                     <div>
-                        <pre>com.target.automation.steps.AgregarProductoSteps.ingresarProducto(AgregarProductoSteps.java:46)<br />com.target.automation.stepdefinitions.AgregarProductoStepDefinitions.elUsuarioBusca(AgregarProductoStepDefinitions.java:38)<br />✽.el Usuario busca "womens shoes"(src/test/resources/features/agregar_producto.feature:8)<br /></pre>
+                        <pre>com.target.automation.steps.AgregarProductoSteps.verificarConexion(AgregarProductoSteps.java:38)<br />com.target.automation.stepdefinitions.AgregarProductoStepDefinitions.seVerificaConexionAInternet(AgregarProductoStepDefinitions.java:33)<br />✽.se verifica conexion a internet(src/test/resources/features/agregar_producto.feature:7)<br /></pre>
                     </div>
 
                 </div>
@@ -323,6 +301,28 @@
     </div>
                             </td>
                         </tr>
+                    <tr class="test-SKIPPED">
+
+                        <td width="50" class="step-icon">
+                            <a name="2"></a>
+                                <span style="margin-left: 20px;"
+                                      class="top-level-icon"><a href='##beforetable'><i class='fa fa-fast-forward skipped-icon ' title='SKIPPED'></i></a>
+                                </span>
+                        </td>
+
+                        <td class="step-description-column">
+                            <div class="step-description">
+                                    <span class="top-level-step">
+                                                And el Usuario busca "womens shoes"
+                                        </span>
+                                <span class="evidence">
+                                </span>
+                            </div>
+                        </td>
+
+                        <td width="130"><span class="top-level-step">SKIPPED</span></td>
+                        <td width="100"><span class="top-level-step">0.01s</span></td>
+                    </tr>
                     <tr class="test-SKIPPED">
 
                         <td width="50" class="step-icon">
@@ -392,7 +392,7 @@
                 <tr class="test-ERROR">
                         <td colspan="2"></td>
                     <td width="130"><span class="top-level-step"><em>ERROR</em></span></td>
-                    <td width="100"><span class="top-level-step"><em>16.24s</em></span></td>
+                    <td width="100"><span class="top-level-step"><em>21.83s</em></span></td>
                 </tr>
 
             </table>

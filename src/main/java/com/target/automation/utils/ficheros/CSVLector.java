@@ -6,13 +6,16 @@ import au.com.bytecode.opencsv.CSVWriter;
 import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
+import java.util.List;
 
 public class CSVLector {
 
-    public void escribirProductos(String archivo ,String articulo, String descripcion, String precio)
+    public String[] escribirProductos(String archivo)
             throws IOException {
 
-        CSVReader lector = new CSVReader(new FileReader(archivo));
-        CSVWriter escribir = new CSVWriter(new FileWriter(archivo));
+        CSVReader lector = new CSVReader(new FileReader(archivo), ',');
+        String[] data = lector.readNext();
+
+        return data;
     }
 }

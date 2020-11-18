@@ -8,6 +8,6 @@
       And el Usuario busca "womens shoes"
       When el Usuario elige especificacion
       |Color  |Cantidad|
-      |Black  |1       |
+      |Negro  |1       |
       Then el Uusario realiza la compra
       And se verifica la compra

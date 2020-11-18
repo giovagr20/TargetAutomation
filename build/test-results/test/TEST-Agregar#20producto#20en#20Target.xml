@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Agregar producto en Target" tests="1" skipped="0" failures="1" errors="0" timestamp="2020-11-17T23:55:33" hostname="CPX-BWG2LK295OL" time="16.405">
+<testsuite name="Agregar producto en Target" tests="1" skipped="0" failures="1" errors="0" timestamp="2020-11-18T00:11:35" hostname="CPX-BWG2LK295OL" time="21.903">
   <properties/>
-  <testcase name="Agregar un nuevo producto" classname="Agregar producto en Target" time="16.405">
+  <testcase name="Agregar un nuevo producto" classname="Agregar producto en Target" time="21.903">
     <failure message="java.lang.NullPointerException" type="java.lang.NullPointerException">java.lang.NullPointerException
-	at com.target.automation.steps.AgregarProductoSteps.ingresarProducto(AgregarProductoSteps.java:46)
-	at com.target.automation.stepdefinitions.AgregarProductoStepDefinitions.elUsuarioBusca(AgregarProductoStepDefinitions.java:38)
-	at ✽.el Usuario busca &quot;womens shoes&quot;(src/test/resources/features/agregar_producto.feature:8)
+	at com.target.automation.steps.AgregarProductoSteps.verificarConexion(AgregarProductoSteps.java:38)
+	at com.target.automation.stepdefinitions.AgregarProductoStepDefinitions.seVerificaConexionAInternet(AgregarProductoStepDefinitions.java:33)
+	at ✽.se verifica conexion a internet(src/test/resources/features/agregar_producto.feature:7)
 </failure>
   </testcase>
   <system-out><![CDATA[El estado de internet estÃ¡: Online
 ]]></system-out>
-  <system-err><![CDATA[Starting ChromeDriver 86.0.4240.22 (398b0743353ff36fb1b82468f63a3a93b4e2e89e-refs/branch-heads/4240@{#378}) on port 7431
+  <system-err><![CDATA[Starting ChromeDriver 86.0.4240.22 (398b0743353ff36fb1b82468f63a3a93b4e2e89e-refs/branch-heads/4240@{#378}) on port 32811
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Nov 17, 2020 6:55:37 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+Nov 17, 2020 7:11:41 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 [Test worker] ERROR net.thucydides.core.steps.ConsoleLoggingListener - 
            __  _____ _____ ____ _____   _____ _    ___ _     _____ ____  
@@ -26,7 +26,7 @@ INFO: Detected dialect: W3C
 
 TEST FAILED WITH ERROR: Agregar un nuevo producto
 ---------------------------------------------------------------------
-[Test worker] ERROR net.thucydides.core.steps.ConsoleLoggingListener - TEST FAILED AT STEP And el Usuario busca "womens shoes"
+[Test worker] ERROR net.thucydides.core.steps.ConsoleLoggingListener - TEST FAILED AT STEP And se verifica conexion a internet
 [Test worker] ERROR net.thucydides.core.steps.ConsoleLoggingListener - 
 ]]></system-err>
 </testsuite>

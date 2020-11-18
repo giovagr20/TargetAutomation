@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite errors="1" failures="0" name="Agregar producto en Target" skipped="0" tests="1" time="16.24" timestamp="2020-11-17 06:55:33"><testcase name="Agregar un nuevo producto"><error type="java.lang.NullPointerException"/><system-err>null&#13;
-com.target.automation.steps.AgregarProductoSteps.ingresarProducto(AgregarProductoSteps.java:46)&#13;
-com.target.automation.stepdefinitions.AgregarProductoStepDefinitions.elUsuarioBusca(AgregarProductoStepDefinitions.java:38)&#13;
-✽.el Usuario busca "womens shoes"(src/test/resources/features/agregar_producto.feature:8)&#13;
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="1" failures="0" name="Agregar producto en Target" skipped="0" tests="1" time="21.83" timestamp="2020-11-17 07:11:35"><testcase name="Agregar un nuevo producto"><error type="java.lang.NullPointerException"/><system-err>null&#13;
+com.target.automation.steps.AgregarProductoSteps.verificarConexion(AgregarProductoSteps.java:38)&#13;
+com.target.automation.stepdefinitions.AgregarProductoStepDefinitions.seVerificaConexionAInternet(AgregarProductoStepDefinitions.java:33)&#13;
+✽.se verifica conexion a internet(src/test/resources/features/agregar_producto.feature:7)&#13;
 </system-err></testcase></testsuite>

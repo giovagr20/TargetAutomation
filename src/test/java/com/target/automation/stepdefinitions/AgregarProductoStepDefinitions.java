@@ -40,14 +40,18 @@ public class AgregarProductoStepDefinitions {
 
     @When("^el Usuario elige especificacion$")
     public void elUsuarioEligeEspecificacion(List<Especificaciones> especificaciones) {
+        agregarProductos.escogerProductoEspecificacion(especificaciones.get(1).getColor(),
+                especificaciones.get(1).getCantidad());
     }
 
     @Then("^el Uusario realiza la compra$")
     public void elUusarioRealizaLaCompra() {
+        agregarProductos.hacerCompra();
     }
 
     @Then("^se verifica la compra$")
     public void seVerificaLaCompra() {
+        agregarProductos.validarCompra();
     }
 
 }
